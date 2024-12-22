@@ -73,6 +73,7 @@ class _SebhaHomeState extends State<SebhaHome> with SingleTickerProviderStateMix
           const SizedBox(
             height: 20,
           ),
+          Image.asset('assets/images/deal.png'),
           InkWell(
             onTap: incrementCounter,
             child: Stack(

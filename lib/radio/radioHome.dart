@@ -4,8 +4,6 @@ import 'package:islamyproject/radio/selectRecitershome.dart';
 import 'package:islamyproject/radio/selectradiohome.dart';
 
 class radioHome extends StatelessWidget {
-
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -26,8 +24,18 @@ class radioHome extends StatelessWidget {
               labelColor: AppColor.blackcolor,
               unselectedLabelColor: AppColor.whitecolor,
               tabs: [
-                Tab(child: Text('Radio',style:TextStyle(fontSize: 30),)),
-                Tab(child: Text('Reciters',style:TextStyle(fontSize: 30),)),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Tab(child: Text('Radio',style:TextStyle(fontSize: 30),)),
+                  ],
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Tab(child: Text('Reciters',style:TextStyle(fontSize: 30),)),
+                  ],
+                ),
               ],
                          ),
             Expanded(

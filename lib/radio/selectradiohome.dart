@@ -10,11 +10,11 @@ class selectradiohome extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        Designradioscreen(titletext: 'Radio Ibrahim Al-Akdar'),
-        Designradioscreen(titletext: 'Radio Ibrahim Al-Akdar'),
-        Designradioscreen(titletext: 'Radio Ibrahim Al-Akdar'),
-        Designradioscreen(titletext: 'Radio Ibrahim Al-Akdar'),
-        Designradioscreen(titletext: 'Radio Ibrahim Al-Akdar'),
+        Designradioscreen(titletext: 'Radio Ibrahim Al-Akdar', pathImage: 'assets/images/gam3.png',),
+        Designradioscreen(titletext: 'Radio Ibrahim Al-Akdar',pathImage: 'assets/images/waves.png',),
+        Designradioscreen(titletext: 'Radio Ibrahim Al-Akdar',pathImage: 'assets/images/gam3.png',),
+        Designradioscreen(titletext: 'Radio Ibrahim Al-Akdar',pathImage: 'assets/images/waves.png',),
+        Designradioscreen(titletext: 'Radio Ibrahim Al-Akdar',pathImage: 'assets/images/gam3.png',),
       ],
     );
   }
